@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/styles.css">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c1b10a1b25.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>WEATHER APP</h1>
+
+      <h2> date </h2>
+
+      <div class="row">
+        <div class="col-8">
+          <form id ="search-bar" action="submit">
+            <input
+              type="text"
+              id="search-text-input"
+              placeholder="Search city..."
+            />
+            <input type="submit" value="search" id="buttonForm" />
+          </form>
+          <br />
+
+          <button id="current">CURRENT <i class="fas fa-thumbtack"></i></button>
+        </div>
+        <div class="col-4">
+          <span id="city"
+            >ROME 
+          </span> <span id="iconNow"> </i></span>
+          <br>
+          <span id= "temp">
+          <span id="temperature"
+            >21 
+          </span> c° <i class="fas fa-temperature-high"></i></span>
+          <br />
+          <em>live</em>
+          <br />
+          <span id= "data">
+          humidity: <span id="humidity">  </span>%
+          <br />
+          wind: <span id="wind"> </span> m/s </span>
+      </div>
+    </div>
+  </body>
+</html>
