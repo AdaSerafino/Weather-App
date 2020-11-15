@@ -25,7 +25,7 @@ let apiKey = "5967aac478c61d8681bc0238c6fbf1df";
 
 function handleSubmit(event) {
   event.preventDefault();
-  let city = document.querySelector("#search-text-input").value;
+  let city = document.querySelector("#search-text-input").value ;
   searchCity(city);
 }
 
