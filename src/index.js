@@ -29,7 +29,7 @@ function handleSubmit(event) {
   searchCity(city);
 }
 
-let form = document.querySelector("#buttonForm");
+let form = document.querySelector("#search-bar");
 form.addEventListener("submit", handleSubmit);
 
 function searchCity(city) {
